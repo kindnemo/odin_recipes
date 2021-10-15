@@ -1,10 +1,12 @@
 body{
     font-family: sans-serif, monospace;
+    background: url(../images/double-bubble-outline.png);
 }
 h1{
     font-family: 'Ephesis', cursive;
     font-size: 50px;
-    color: #B74877;
+    color: yellow;
+    padding: 5px 0px 8px 0px;
 }
 
 #headiv{
@@ -14,7 +16,7 @@ h1{
     background-color: #48B788;
 }
 .container{
-    margin-left: 2%;
+    margin-left: 3%;
     margin-top: 10vh;
 }
 a{
@@ -38,4 +40,15 @@ img{
     border-radius: 20px;
     border-width: 5px;
     box-shadow: 5px 2px 8px grey;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3%;
+}
+
+
+.ingredients .steps .desc{
+    
 }
